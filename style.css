@@ -1,0 +1,307 @@
+body{
+  background-color: rgb(6, 11, 6)
+}
+.home{
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.profession{
+  color: dodgerblue;
+}
+
+.head{
+  font-style: italic;
+}
+
+.a:hover{
+background-color: black;
+padding: 5px 5px;
+color: white;
+border-radius: 7px;
+
+}
+.hire{
+background-color: dodgerblue;
+color: black;
+text-decoration: none;
+border-radius: 7px;
+padding: 10px 35px 10px;
+text-align: center;
+}
+.talk{
+background-color: black;
+border: 1px solid dodgerblue;
+color: dodgerblue;
+text-decoration: none;
+padding: 10px 35px 10px;
+border-radius: 7px;
+}
+.hire:hover{
+background-color: black;
+border: 1px solid dodgerblue;
+color: dodgerblue;
+}
+
+.talk:hover{
+background-color: dodgerblue;
+color: black;
+}
+.a i:hover{
+border: 1px solid dodgerblue;
+color: bisque;
+background-color: black;
+width: 30px;
+}
+.animate5{
+width: 80%;
+display: flex;
+cursor: pointer;
+opacity: 0.8;
+border-radius: 10px;
+margin-right: 10px;
+background-color: black;
+animation-name: rs;
+animation-delay: 1s;
+animation-duration: 1s;
+transition: width 1s;
+
+
+}
+.animate5:hover{
+
+width: 50%;
+}
+@keyframes rs{
+  from{
+    width: 40%;
+  }
+  to{
+    width: 40%;
+  }
+}
+.picture:hover:active{
+position: relative;
+top: 50%;
+
+
+}
+
+p{
+font-weight: normal;
+
+}
+.icon:hover{
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 2px;
+}
+
+.in{
+  background-color: black;
+ 
+}
+.end{
+margin-top: 0;
+margin-bottom: 37px;
+}
+
+.nav{
+display: block;
+justify-content: end;
+}
+
+form{
+   
+ display: flex;
+ margin: auto;
+  margin-top: 100px;
+}
+
+
+.about{
+  margin-left: 10%;
+ 
+}
+.imab{
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  opacity: 0.7;
+  outline: 1px solid gray;
+  outline-offset: 12px;
+
+}
+
+.read:hover{
+  border: 1px solid white;
+ 
+  background-color: black;
+}
+
+.img1,.img3, .img2{
+  width: 78%;
+  }
+ 
+ 
+.message{
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media(min-width: 600px){
+.end{
+display: flex;
+width: 100%;
+margin-top: 25px;
+}
+
+}
+@media(max-width: 800px){
+.end{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+
+}
+
+@media(max-width: 800px){
+  .contain1{
+  margin-top: 20px;
+  width: 40%;
+  
+  }
+  
+  }
+@media(max-width: 800px){
+.talk{
+padding: 8px 20px 8px;
+margin-top: 20px;
+}
+
+}
+@media(max-width: 800px){
+.hire{
+padding: 8px 20px 8px;
+margin-top: 20px;
+
+
+}
+
+}
+
+@media(max-width: 800px){
+.picture{
+display: flex;
+width: 50%;
+
+}
+
+}
+
+@media(max-width: 500px){
+  .in{
+  
+padding: 2px;
+  
+  }
+  
+  }
+
+  @media(max-width: 1000px){
+    .pic1{
+    
+  display: flex;
+  flex-basis: 40%;
+  align-self: center;
+  text-align: center;
+ }
+    
+ }
+
+
+
+ .animate{
+  animation-duration: 1s;
+  animation-name: dd;
+  animation-delay: 1s;
+  transition: width 1s;
+  width: 100%;
+  
+ }
+ .animate:hover{
+  background-color: rgba(76, 72, 72, 0.2);
+  width: 85%;
+  border-radius: 20px;
+ }
+ @keyframes dd{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 60%;
+  }
+ }
+ .animate1{
+  animation-duration: 1s;
+  animation-name: cc;
+  animation-delay: 1s;
+  transition: width 0.35s;
+  width: 30%;
+  }
+  @keyframes cc{
+    from{
+      width: 30%;
+    }
+    to{
+      width: 60%;
+      background-color: dodgerblue;
+    }
+  }
+.animate1:hover{
+background-color: dodgerblue;
+width: 45%;
+border-radius: 20px;
+}
+
+
+
+  @media (max-width: 800px) {
+    .animate1{
+        width: 70%;
+        
+       }
+    
+}
+@media (max-width: 800px) {
+  .animate1:hover{
+      width: 90%;
+      }
+ }
+@media (width: 800px) {
+  .animate1{
+      width: 30%;
+      }
+  
+}
+
+
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
